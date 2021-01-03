@@ -1,0 +1,313 @@
+/*  small screen mobile (sm) phone*/
+
+@media(max-width:576px) {
+    .navbar {
+        position: relative;
+        top: 10px;
+    }
+    .navbar .links ul {
+        flex-direction: column;
+    }
+    .navbar-nav h2 {
+        display: none;
+    }
+    .header .bola h2 {
+        font-size: 20px;
+    }
+    .header .bola {
+        top: 50%;
+        left: 0%;
+    }
+    .links ul li {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .service .show {
+        display: none;
+    }
+    .header .bola p {
+        font-size: 14px;
+    }
+    .service .layout {
+        width: 100%;
+        display: flex;
+        margin: 20px 0;
+    }
+    .service .layout .item {
+        font-size: 30px;
+        margin: 0px 20px;
+    }
+    .est {
+        margin: 40px 0;
+    }
+    .our-team {
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+    .our-team ul {
+        flex-wrap: wrap;
+    }
+    .our-team ul li {
+        margin-bottom: 20px;
+    }
+    .toggle {
+        padding: 0;
+    }
+    .testimonial .text {
+        padding: 0px;
+    }
+    .testimonial .text h2 {
+        padding: 40px 0;
+    }
+    .project .frist {
+        padding: 0;
+    }
+    .project .frist ul {
+        flex-wrap: wrap;
+    }
+    .project .frist ul li {
+        margin-right: 5px;
+        padding: 10px 6px;
+        margin-bottom: 20px;
+    }
+    .project .pic ul {
+        flex-wrap: wrap;
+    }
+    .project .pic ul li {
+        margin-bottom: 10px;
+    }
+    .volu {
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .volu h2 {
+        font-size: 20px;
+    }
+    .volu p {
+        font-size: 14px;
+    }
+    .services .box a:hover {
+        transition: all .2s ease-in-out;
+    }
+    .counterup .begin h2 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .counterup .begin p {
+        font-size: 14px;
+    }
+    .counterup .follower {
+        margin-top: 40px;
+    }
+    .counterup .follower span {
+        font-size: 10px;
+    }
+    .counterup .num {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .counterup i {
+        font-size: 25px;
+    }
+    .prog .skills {
+        margin: 0;
+    }
+    .prog .skills p {
+        font-size: 13px;
+    }
+    .contact {
+        padding: 20px 0;
+    }
+    .contact .ahmed i {
+        font-size: 20px;
+    }
+    .contact .ahmed h2 {
+        font-size: 25px;
+    }
+    .contact .ebrahim h2 {
+        font-size: 25px;
+    }
+    .contact .useful .nabil {
+        margin-left: 0;
+    }
+    .contact .groub {
+        margin: 20px 0;
+    }
+    .copyright .right {
+        font-size: 11px;
+    }
+}
+
+
+/* tagroba */
+
+@media(min-width:425px) {
+    .project .frist ul li {
+        padding: 10px 15px;
+    }
+}
+
+
+/*  */
+
+
+/* medium screen mobile (md) tablet */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        position: relative;
+        top: 10px;
+    }
+    .navbar .links ul {
+        flex-direction: column;
+    }
+    .navbar-nav h2 {
+        display: none;
+    }
+    .header .bola h2 {
+        font-size: 30px;
+    }
+    .header .bola {
+        top: 50%;
+        left: 0%;
+    }
+    .links ul li {
+        margin-left: 0;
+        font-size: 17px;
+    }
+    .service .show {
+        display: none;
+    }
+    .header .bola p {
+        font-size: 20px;
+    }
+    .service .layout {
+        width: 100%;
+        display: flex;
+        margin: 20px 0;
+    }
+    .service .layout .item {
+        font-size: 30px;
+        margin: 0px 20px;
+    }
+    .est {
+        margin: 40px 0;
+    }
+    .our-team {
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+    .project .pic .mix {
+        flex-wrap: nowrap;
+    }
+    .our-team ul li {
+        margin-bottom: 20px;
+    }
+    .testimonial .text {
+        padding: 0px;
+    }
+    .testimonial .text h2 {
+        padding: 40px 0;
+    }
+    .project .frist {
+        padding: 0;
+    }
+    .project .frist ul {
+        flex-wrap: no-wrap;
+    }
+    .project .frist ul li {
+        margin-right: 5px;
+        padding: 10px 45px;
+        margin-bottom: 20px;
+    }
+    .project .pic ul {
+        flex-wrap: no-wrap;
+    }
+    .project .pic ul li {
+        margin-bottom: 10px;
+    }
+    .volu {
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .volu h2 {
+        font-size: 20px;
+    }
+    .volu p {
+        font-size: 14px;
+    }
+    .services .box a:hover {
+        transition: all .2s ease-in-out;
+    }
+    .counterup .begin h2 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .counterup .begin p {
+        font-size: 14px;
+    }
+    .counterup .follower {
+        margin-top: 40px;
+    }
+    .counterup .follower span {
+        font-size: 10px;
+    }
+    .counterup .num {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .counterup i {
+        font-size: 25px;
+    }
+    .prog .skills {
+        margin: 0;
+    }
+    .prog .skills p {
+        font-size: 13px;
+    }
+    .contact {
+        padding: 20px 0;
+    }
+    .contact .ahmed h2 {
+        font-size: 25px;
+    }
+    .contact .ahmed ul li {
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .contact .ebrahim h2 {
+        font-size: 25px;
+    }
+    .contact .useful .nabil {
+        margin-left: 0;
+    }
+    .contact .groub {
+        margin: 20px 0;
+    }
+    .copyright .right {
+        font-size: 11px;
+    }
+}
+
+
+/* larg screen mobile (lg) laptop */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
+
+
+/* xlarg screen mobile (xl) desktop */
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .header .bola h2 {
+        font-size: 30px;
+    }
+    .service .layout .item {
+        font-size: 30px;
+    }
+    .project .frist ul li {
+        padding: 10px 67px;
+    }
+    .service .show {
+        display: none;
+    }
+}
